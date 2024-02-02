@@ -61,6 +61,18 @@ body{
     outline: none;
     text-transform: uppercase;
 }
+/*Small Screen*/
+@media (max-width:359px) {
+    .container .search{
+        position: absolute;
+        left: 0;
+        top: 5%;
+        width: fit-content;
+    }
+    .container .search input{
+        width: 70%;
+    }
+}
 #location{
     font-size: 26px;
 }
